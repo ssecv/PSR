@@ -1,0 +1,21 @@
+_BASE_: "Base.yaml"
+MODEL:
+  WEIGHTS: "/path/to/Base_R50.pth"
+  RESNETS:
+    DEPTH: 50
+DATASETS:
+  DATASETS_DIR: "/path/to/dataset/ASSR/"
+  TRAIN: ("assr_train",)
+  TEST: ("assr_test",)
+SOLVER:
+  OPTIMIZER: "SGD"
+  BASE_LR: 0.000025
+  WEIGHT_DECAY: 0.0001
+  WARMUP_ITERS: 100
+  IMS_PER_BATCH: 4
+  STEPS: (84000, 108000)
+  MAX_ITER: 120000
+  CHECKPOINT_PERIOD: 10000
+TEST:
+  DETECTIONS_PER_IMAGE: 100
+OUTPUT_DIR: "/path/to/output_dir/"

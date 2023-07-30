@@ -1,0 +1,25 @@
+MODEL:
+  META_ARCHITECTURE: "PSR"
+  MASK_ON: True
+  BACKBONE:
+    NAME: "build_resnet_sor_backbone"
+  RESNETS:
+    OUT_FEATURES: ["res2", "res3", "res4", "res5"]
+  FPN:
+    IN_FEATURES: ["res2", "res3", "res4", "res5"]
+DATASETS:
+  TRAIN: ("assr_train",)
+  TEST: ("assr_test",)
+SOLVER:
+  IMS_PER_BATCH: 4
+  BASE_LR: 0.01
+  WARMUP_FACTOR: 0.01
+  WARMUP_ITERS: 1000
+  STEPS: (60000, 80000)
+  MAX_ITER: 90000
+INPUT:
+  MIN_SIZE_TEST: 480
+  MIN_SIZE_TRAIN: (480,)
+  MASK_FORMAT: "bitmask"
+
+

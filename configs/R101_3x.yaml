@@ -1,0 +1,6 @@
+_BASE_: "R50_3x.yaml"
+MODEL:
+  WEIGHTS: "/path/to/Base_R101.pth"
+  RESNETS:
+    DEPTH: 101
+OUTPUT_DIR: "/path/to/output_dir/"
