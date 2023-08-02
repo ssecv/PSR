@@ -34,3 +34,12 @@ Model weights are come from AdelaiDet:
         --eval-only MODEL.WEIGHTS {PATH_TO_PRE_TRAINED_WEIGHTS}
 Please replace `{PATH_TO_PRE_TRAINED_WEIGHTS}` to the pre-trained weights
 
+## Citation
+```BibTeX
+@inproceedings{mm2023psr,
+  title={Partitioned Saliency Ranking with Dense Pyramid Transformers},
+  author={Sun, Chengxiao and Xu, Yan and Jialun, Pei and Fang, Haopeng and Tang, He},
+  booktitle={Proceedings of the 31st ACM International Conference on Multimedia (MM '23), October 29-November 3, 2023, Ottawa, ON, Canada,
+  year={2023}
+}
+```
