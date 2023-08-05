@@ -1,4 +1,4 @@
-# Partitioned Saliency Ranking with Dense Pyramid Transformers. ACM MM, 2023.
+# Partitioned Saliency Ranking with Dense Pyramid Transformers. ACM MM, 2023. [Paper](https://arxiv.org/abs/2308.00236)
 ![New_Arc](docs/New_Paradigm.png)
 ![PSR](docs/Net_Architecture.png)
 # Requirements
