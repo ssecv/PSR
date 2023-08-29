@@ -27,7 +27,7 @@ Pre-trained model weights are come from AdelaiDet:
 | R50 | [config](configs/R50_3x.yaml) | [model](https://cloudstor.aarnet.edu.au/plus/s/chF3VKQT4RDoEqC/download) |
 | R101 | [config](configs/R101_3x.yaml) | [model](https://cloudstor.aarnet.edu.au/plus/s/9w7b3sjaXvqYQEQ)
 
-These are the weights used for inference: 
+These are the weights trained on ASSR dataset:
 - R50: [Baidu Disk](https://pan.baidu.com/s/1mfnA96XWfZ0kibAoq2lhjw) Verification code: 6z4u; [Google Disk](https://drive.google.com/file/d/1nqLnlAiBJYHS5Ml5tl0waUj3GJ6LjFBI/view?usp=drive_link)
 - R101: [Baidu Disk](https://pan.baidu.com/s/1b8fMsUKlAGY4NBJC1dxNlA) Verification code: qy4k; [Google Disk](https://drive.google.com/file/d/1iBcKk2dKen4u1Pm4wWud6J4uFbCM940J/view?usp=sharing)
 ## Train
