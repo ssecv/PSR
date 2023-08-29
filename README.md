@@ -20,12 +20,16 @@ Download the datasets from the following links from original authors
 - **ASSR**: [Github](https://github.com/SirisAvishek/Attention_Shift_Ranks)
 - **IRSR**: [Github](https://github.com/dragonlee258079/Saliency-Ranking)
 # Usage
-## Pre-trained models
-Model weights are come from AdelaiDet:
+## Download
+Pre-trained model weights are come from AdelaiDet:
 | Model | Config | Download|
 |--|--|--|
 | R50 | [config](configs/R50_3x.yaml) | [model](https://cloudstor.aarnet.edu.au/plus/s/chF3VKQT4RDoEqC/download) |
 | R101 | [config](configs/R101_3x.yaml) | [model](https://cloudstor.aarnet.edu.au/plus/s/9w7b3sjaXvqYQEQ)
+
+These are the weights used for inference: 
+- R50: [Baidu Disk](https://pan.baidu.com/s/1mfnA96XWfZ0kibAoq2lhjw) Verification code: 6z4u; [Google Disk](https://drive.google.com/file/d/1nqLnlAiBJYHS5Ml5tl0waUj3GJ6LjFBI/view?usp=drive_link)
+- R101: [Baidu Disk](https://pan.baidu.com/s/1b8fMsUKlAGY4NBJC1dxNlA) Verification code: qy4k; [Google Disk](https://drive.google.com/file/d/1iBcKk2dKen4u1Pm4wWud6J4uFbCM940J/view?usp=sharing)
 ## Train
     python train_psr.py --config-file configs/R50_3x.yaml
 ## Inference
